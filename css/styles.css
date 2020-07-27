@@ -1,0 +1,15 @@
+h3 {
+    color: #1b262c;
+}
+
+body {
+    background-color: powderblue;
+}
+
+hr {
+    border-style: solid none none none;
+    border-width: 2px;
+    border-color: white;
+    width: 96%;
+    margin: auto;
+}
