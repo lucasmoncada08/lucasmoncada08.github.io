@@ -1,15 +1,153 @@
-h3 {
-    color: #1b262c;
+a {
+    color: #11999E;
 }
 
-body {
-    background-color: powderblue;
+h1 {
+    margin: 40px auto 10px auto;
+    position: relative;
+    top: 10px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 562.5%;
+    color: #00204a
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 12px;
+    color: #00204a
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #005792;
 }
 
 hr {
-    border-style: solid none none none;
-    border-width: 2px;
-    border-color: white;
-    width: 96%;
-    margin: auto;
+    margin: 16px auto;
+    border-style: dotted none none none;
+    border-width: 10px;
+    background-color: #d9faff;
+    width: 6%;
+    border-color: #00bbf0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #d9faff
+}
+
+div {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.contact-me {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.top-container {
+    background-color: #00bbf0;
+    position: relative;
+    padding-top: 100px;
+}
+
+.profile {
+    background-color: #d9faff;
+    padding: 12px 200px;
+    
+}
+
+.non-technical-skills-text {
+    margin-top: 100px;
+}
+
+.technical-skills-text {
+    margin-bottom: 100px;
+}
+
+.skill-images {
+    position: relative;
+    bottom: 16px;
+    height: 25%;
+    width: 25%;
+    border-radius: 100%;
+}
+
+.skills-text {
+    line-height: 1.5;
+}
+
+.skills {
+    text-align: left;
+    background-color: #d9faff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.skills-heading {
+    text-align: center;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 65px auto;
+}
+
+.skills-words {
+    position: relative;
+    top: 16px;
+}
+
+.bottom-container {
+    background-color:  #005792;
+    color: #11999E
+}
+
+.title-subtitle {
+    font-weight: normal;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 265px;
+    top: 200px;
+}
+
+#mountain-image {
+    position: relative;
+    bottom: -4px;
+    width: 45%;
+}
+
+#profile-pic {
+    border-radius: 100%;
+    width:208px;
+    height:220px;
+}
+
+#computer-image {
+    float: left;
+    margin-right: 30px;
+}
+
+#leader-image {
+    float: right;
+    margin-left: 30px;
 }
