@@ -1,0 +1,13 @@
+flask
+
+numpy
+
+sklearn
+
+pandas
+
+requests
+
+fastcore==1.0.0
+
+fastai2
