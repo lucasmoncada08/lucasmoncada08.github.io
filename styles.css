@@ -1,0 +1,8 @@
+h1 {
+    text-align: center;
+    margin: 20rem auto;
+}
+
+#mainpage {
+    background-image: url('sunset-image.png');
+}
