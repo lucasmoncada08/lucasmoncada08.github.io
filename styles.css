@@ -1,8 +1,74 @@
-h1 {
-    text-align: center;
-    margin: 20rem auto;
+body {
+    background-color: #113d7e;
+    color: rgb(220, 220, 255);
+    font-family: 'Open Sans', sans-serif;
 }
 
-#mainpage {
-    background-image: url('sunset-image.png');
+.title {
+    margin: 8rem 0;
+}
+
+.mainview {
+    margin: 0% 12rem;
+    width: 85%;
+}
+
+.aboutme {
+    margin: 0% 12rem;
+    width: 85%
+}
+
+.headingnum {
+    font-size: 2rem;
+    font-family: 'Fira Mono', monospace;
+    color: white;
+    padding-right: 2rem;
+}
+
+.headingtitle {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+.link {
+    color: white
+}
+
+.link:hover {
+    color: white;
+}
+
+.sectiontext {
+    font-size: 1.25rem;
+}
+
+div.container {
+    margin: 0;
+}
+
+#hi {
+    font-family: 'Fira Mono', monospace;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#name {
+    font-size: 7.5rem;
+    color: white;
+    font-weight: 700;
+}
+
+#datascientist {
+    font-size: 7.5rem;
+    font-weight: 700;
+}
+
+#oneliner {
+    font-size: 1.75rem;
+}
+
+#picofme {
+    width: 25rem;
+    border-radius: 50%;
+    margin: 3rem 5rem;
 }
