@@ -1,3 +1,7 @@
+/* * {
+    outline: 1px solid red;
+} */
+
 body {
     background-color: #113d7e;
     color: rgb(220, 220, 255);
@@ -13,9 +17,12 @@ body {
     width: 85%;
 }
 
-.aboutme {
-    margin: auto;
-    width: 85%
+/* .section {
+    margin: auto 10%;
+} */
+
+.margin {
+    margin: 3rem 10%
 }
 
 .headingnum {
@@ -28,10 +35,15 @@ body {
 .headingtitle {
     font-size: 2.25rem;
     margin-bottom: 1rem;
+    font-weight: 600;
 }
 
 .link {
     color: white
+}
+
+.rightproj {
+    text-align: right;
 }
 
 .link:hover {
@@ -40,10 +52,54 @@ body {
 
 .sectiontext {
     font-size: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.projecttitle {
+    margin: 6rem 5% 1rem;
+    color: white;
+    font-size: 1.75rem;
+}
+
+.projecttitleright {
+    color: white;
+    font-size: 1.75rem;
+}
+
+.projsummary {
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.projsummaryright {
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.techused {
+    font-family: 'Fira Mono', monospace;
+    margin: 0 2rem;
+}
+
+.techusedright {
+    font-family: 'Fira Mono', monospace;
+}
+
+.gitlogo {
+    margin: 1.5rem 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.video {
+    margin: 3rem 10%;
 }
 
 div.container {
     margin: 0;
+    width: 100%;
 }
 
 #hi {
@@ -68,7 +124,13 @@ div.container {
 }
 
 #picofme {
-    width: 25rem;
+    width: 50%;
     border-radius: 50%;
-    margin: 3rem 5rem;
+    margin: 3rem 15%;
 }
+
+#engconnectpic {
+    width: 40rem;
+    margin: 3rem 10%;
+}
+
