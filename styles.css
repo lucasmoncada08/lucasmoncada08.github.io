@@ -8,6 +8,20 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-custom {
+    background-color: #113d7e;
+}
+
+.navitem {
+    color: rgb(220, 220, 255);
+    margin-right: 0.5rem;
+}
+
+.navnum {
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
+
 .title {
     margin: 8rem 0;
 }
@@ -16,10 +30,6 @@ body {
     margin: auto;
     width: 85%;
 }
-
-/* .section {
-    margin: auto 10%;
-} */
 
 .margin {
     margin: 3rem 10%
@@ -95,6 +105,18 @@ body {
 
 .video {
     margin: 3rem 10%;
+}
+
+.secrow {
+    margin: 2rem 0;
+}
+
+.logo {
+    font-family: 'Fira Mono', monospace;
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+    margin-left: 5%
 }
 
 div.container {

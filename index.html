@@ -6,17 +6,40 @@
     <title>Lucas Portfolio Site</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon-32x32.png"/>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class='navbar-brand' href='#'>LM</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">Icon</span>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class='navbar-brand logo' href='#'>LM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon fas fa-bars"></span>
         </button>
-        <a class=''></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class='nav-item'>
+                    <a class='nav-link'><span class='navnum'>01.</span> <span class='navitem'>About Me</span></a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link navitem'><span class='navnum'>02.</span> <span class='navitem'>Projects</span></a>
+                </li>
+                <li class='nav-item'>  
+                    <a class='nav-link navitem'><span class='navnum'>03.</span> <span class='navitem'>Experience</span></a>      
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link navitem'><span class='navnum'>04.</span> <span class='navitem'>Skills</span></a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link navitem'><span class='navnum'>05.</span> <span class='navitem'>More About Me</span></a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link navitem'><span class='navnum'>06.</span> <span class='navitem'>Contact Me</span></a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <section class='mainview container-fluid' >
 
@@ -31,7 +54,7 @@
 
     <section class='section container-fluid'>
         <div class='margin'>
-            <h2 class='headingtitle'><span class='headingnum'>01.</span>Who Am I?</h2>    
+            <h2 class='headingtitle'><span class='headingnum'>01.</span>About Me</h2>    
             <div class='row'>
                 <div class='col-lg-7 col-md-12 sectiontext'>
                     <p>Hi there! I'm Lucas, a software engineering student at <a class='link' href="https://www.uwo.ca/">Western University</a>, currently living in Toronto, Ontario.</p>
@@ -49,7 +72,7 @@
     <section class='section container-fluid'>
         <div class='margin'>
             <h2 class='headingtitle'><span class='headingnum'>02.</span>Projects</h2>
-            <div class='row'>
+            <div class='secrow row'>
                 <div class='col-lg-6 col-md-12'>
                     <h2 class='projecttitle'>miMatch</h2>
                     <p class='projsummary'>Web application distributed at Western University to statistically analyze student survey responses to recommend other engineering students similar to themselves.</p>
@@ -60,9 +83,9 @@
                     <img id='engconnectpic' src='images/miMatch.png'>
                 </div>
             </div>
-            <div class='row'>
+            <div class='secrow row'>
                 <div class='col-lg-6 col-md-12'>
-                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/U_vkL07rp0o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class='rightproj col-lg-6 col-md-12'>
                     <h2 class='projecttitleright'>Engineering Teaching Quality Research</h2>
@@ -70,7 +93,7 @@
                     <p class='techusedright'>Python Pandas Matplotlib Seaborn Numpy</p>
                 </div>
             </div>
-            <div class='row'>
+            <div class='secrow row'>
                 <div class='col-lg-6 col-md-12'>
                     <h2 class='projecttitle'>MoviesMadeEasy</h2>
                     <p class='projsummary'>Developed a web application to recommend movies to users based on movies they reviewed using collaborative filtering.</p>
