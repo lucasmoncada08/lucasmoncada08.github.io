@@ -32,7 +32,8 @@ body {
 }
 
 .margin {
-    margin: 3rem 10%
+    margin: 8rem 10%;
+    margin-top: 0;
 }
 
 .headingnum {
@@ -119,6 +120,47 @@ body {
     margin-left: 5%
 }
 
+.job {
+    margin-top: 3rem;
+}
+
+.jobpos {
+    color: white;
+}
+
+.jobtime {
+    font-family: 'Fire Mono', monospace;
+}
+
+.jobdescr {
+    font-size: 1.25rem;
+}
+
+.mamsec {
+    margin-top: 4rem;
+}
+
+.book {
+    width: 15%;
+    margin: 2rem 8%
+}
+
+.chase {
+    width: 25%;
+    margin: 2rem 8%;
+    border-radius: 2rem;
+}
+
+.mamheading {
+    color: white;
+}
+
+.contacttext {
+    margin: 4rem 25%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
 div.container {
     margin: 0;
     width: 100%;
@@ -156,3 +198,16 @@ div.container {
     margin: 3rem 10%;
 }
 
+#contactbtn {
+    background-color: #113d7e;
+    width: 8rem;
+    height: 4rem;
+    border-style: double;
+    border-color: rgb(220, 220, 255);
+    color: rgb(220, 220, 255);
+    border-radius: 0.5rem;
+}
+
+#contactbtn:hover {
+    cursor: pointer;
+}
