@@ -120,6 +120,10 @@ body {
     margin-left: 5%
 }
 
+.linkedinlogo {
+    width: 2rem;
+}
+
 .job {
     margin-top: 3rem;
 }
@@ -156,9 +160,20 @@ body {
 }
 
 .contacttext {
-    margin: 4rem 25%;
+    margin: 4rem 25% 2rem;
     text-align: center;
     font-size: 1.25rem;
+}
+
+.contactlogo {
+    text-align: center;
+    margin: 0rem 2rem 2rem;
+    position: relative;
+    left: 0.5rem;
+}
+
+span.contactlogo {
+    display: block;
 }
 
 div.container {
