@@ -54,6 +54,7 @@ body {
 }
 
 .rightproj {
+    margin-top: 2%;
     text-align: right;
 }
 
@@ -194,7 +195,7 @@ div.container {
 }
 
 #datascientist {
-    font-size: 7.5rem;
+    font-size: 6.5rem;
     font-weight: 700;
 }
 
@@ -209,6 +210,11 @@ div.container {
 }
 
 #engconnectpic {
+    width: 40rem;
+    margin: 3rem 10%;
+}
+
+#ta-inderpic {
     width: 40rem;
     margin: 3rem 10%;
 }
